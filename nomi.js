@@ -1,3 +1,3 @@
-const persona1 = "Alessandro"
+module.exports.persona1 = "Alessandro"
 const persona2 = "Katia"
-module.exports = {persona1,persona2}
+module.exports.persona2=persona2
