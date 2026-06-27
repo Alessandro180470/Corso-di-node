@@ -1,10 +1,12 @@
-const saluta = require('./utils')
-const nomi = require('./nomi')
+// modulo fs file system
+const{readFileSync,writeFileSync} = require('fs')
+const prova = readFileSync('./cartella/prova.txt','utf8');
+const ciao = readFileSync('./cartella/ciao.txt','utf8');
 
-//saluta("Mario")
-//saluta (persona1)
-//saluta(persona2)
-saluta(nomi.persona1)
-saluta(nomi.persona2)
-saluta("Anna")
+console.log(ciao)
+console.log(prova)
+
+writeFileSync('./cartella/prova.txt',' abito in via enrico mazzoccolo',{flag: 'a'})//inserendo uno scritto quest'ultimo va a sovrascrivere su quello vecchio
+
+
 

@@ -3,3 +3,9 @@ function saluta(nome){
 }
 
 module.exports = saluta
+
+function ciao(){
+    console.log("Ciao da Alessandro")
+    
+}
+ciao()
