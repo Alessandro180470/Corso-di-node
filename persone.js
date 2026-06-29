@@ -1,5 +1,5 @@
 const persone = [
-    {
+    {   id: "1",
         nome :"luca",
         cognome : "rossi",
         eta : 25,
@@ -11,6 +11,7 @@ const persone = [
         interessi:["basket","calcio"]
     },
     {
+    id: "2",
     nome :"marco",
         cognome : "verdi",
         eta : 21,
